@@ -1,0 +1,139 @@
+{
+ "attribution": {
+  "data": "The Tor Project (onionoo.torproject.org, check.torproject.org) \u2014 public relay data",
+  "note": "Not affiliated with the Tor Project. Listing exits is not a statement about Tor; block or allow at your own discretion."
+ },
+ "checks": {
+  "added_since_last_run": 1346,
+  "addresses_without_country": 0,
+  "bulk_list_ips": 1398,
+  "dropped_no_policy_v4": 0,
+  "dropped_no_policy_v6": 105,
+  "dropped_not_running": 348,
+  "dropped_reject_all_v4": 0,
+  "dropped_reject_all_v6": 0,
+  "in_bulk_not_onionoo": 65,
+  "in_onionoo_not_bulk": 13,
+  "relays_exit_flag": 3467,
+  "relays_reject_all_v4": 0,
+  "relays_reject_all_v6": 0,
+  "relays_running": 3076,
+  "relays_without_v4_policy_summary": 0,
+  "relays_without_v6_policy_summary": 569,
+  "removed_since_last_run": 0
+ },
+ "counts": {
+  "by_country": {
+   "ae": 2,
+   "at": 34,
+   "au": 5,
+   "be": 1,
+   "bg": 20,
+   "ca": 11,
+   "ch": 26,
+   "cl": 6,
+   "cr": 2,
+   "cy": 3,
+   "cz": 10,
+   "de": 384,
+   "dk": 29,
+   "ee": 2,
+   "es": 3,
+   "fi": 16,
+   "fr": 38,
+   "gb": 12,
+   "gr": 1,
+   "hk": 13,
+   "hr": 8,
+   "hu": 18,
+   "id": 6,
+   "il": 1,
+   "is": 27,
+   "it": 24,
+   "jp": 4,
+   "kr": 2,
+   "lt": 1,
+   "lu": 118,
+   "md": 13,
+   "mx": 2,
+   "my": 4,
+   "nl": 270,
+   "no": 25,
+   "nz": 2,
+   "pe": 2,
+   "ph": 2,
+   "pl": 5,
+   "pt": 2,
+   "ro": 36,
+   "rs": 5,
+   "sa": 1,
+   "sc": 4,
+   "se": 104,
+   "sg": 19,
+   "tr": 10,
+   "tw": 5,
+   "ua": 7,
+   "us": 789,
+   "vn": 3,
+   "za": 11
+  },
+  "countries": 52,
+  "csv_rows": 2148,
+  "ipv4": 1346,
+  "ipv6": 802,
+  "top_countries": [
+   [
+    "us",
+    789
+   ],
+   [
+    "de",
+    384
+   ],
+   [
+    "nl",
+    270
+   ],
+   [
+    "lu",
+    118
+   ],
+   [
+    "se",
+    104
+   ],
+   [
+    "fr",
+    38
+   ],
+   [
+    "ro",
+    36
+   ],
+   [
+    "at",
+    34
+   ],
+   [
+    "dk",
+    29
+   ],
+   [
+    "is",
+    27
+   ]
+  ]
+ },
+ "duration_s": 1.8,
+ "generated": 1791123618,
+ "sources": {
+  "bulk": {
+   "url": "https://check.torproject.org/torbulkexitlist"
+  },
+  "onionoo": {
+   "relays_published": "2026-10-04 13:00:00",
+   "url": "https://onionoo.torproject.org/details?type=relay&flag=Exit"
+  }
+ },
+ "status": "ok"
+}

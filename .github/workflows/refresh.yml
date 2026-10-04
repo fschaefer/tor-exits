@@ -1,0 +1,46 @@
+name: refresh
+
+# Daily refresh, entirely on GitHub: no server, no secrets, no PAT.
+# Scheduled workflows in public repos are disabled after 60 days without
+# repository activity — the commit step below always runs, so even a failed
+# refresh leaves a commit (meta.json with status: error) and keeps it alive.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"      # 03:17 UTC = 05:17 CEST / 04:17 CET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"   # no __pycache__ churn in the commit
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the tests
+        run: python3 tests/test_refresh.py
+
+      - name: Refresh the lists
+        run: python3 refresh.py
+
+      - name: Commit and push
+        if: always()            # also publishes meta.json when the source failed
+        run: |
+          git config user.name  "tor-exits"
+          git config user.email "tor-exits@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "nothing to do" && exit 0
+          git commit -m "refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
