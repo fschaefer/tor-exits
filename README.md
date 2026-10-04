@@ -1,5 +1,11 @@
 # tor-exits — Tor exit addresses, refreshed daily
 
+[![refresh](https://github.com/fschaefer/tor-exits/actions/workflows/refresh.yml/badge.svg)](https://github.com/fschaefer/tor-exits/actions/workflows/refresh.yml)
+[![last run](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffschaefer%2Ftor-exits%2Fmain%2Fmeta.json&query=%24.status&label=last%20run&color=blue)](meta.json)
+[![Tor exits (IPv4)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffschaefer%2Ftor-exits%2Fmain%2Fmeta.json&query=%24.counts.ipv4&label=Tor%20exits%20(IPv4)&color=blue)](tor-exits.ipv4)
+[![relay data](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffschaefer%2Ftor-exits%2Fmain%2Fmeta.json&query=%24.sources.onionoo.relays_published&label=relay%20data&color=lightgrey)](meta.json)
+[![license](https://img.shields.io/badge/license-BSD--2--Clause-blue)](LICENSE)
+
 The current Tor exit addresses, taken from the Tor Project's own data and
 published as plain lists. Refreshed once a day by a GitHub Actions workflow —
 this repository has no server, no credentials and no secrets behind it.
