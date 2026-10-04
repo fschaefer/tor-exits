@@ -83,6 +83,14 @@ hourly) and `check.torproject.org` (bulk exit list). This repository only
 reformats and enriches what those two services publish. Not affiliated with,
 endorsed by, or supported by the Tor Project.
 
+## License
+
+The code in this repository (`refresh.py`, `tests/`, the workflow) is
+BSD-2-Clause — see [`LICENSE`](LICENSE).
+
+The **data** it publishes is not ours to license: it comes from the Tor
+Project's public relay data, and this repository only reformats it.
+
 ## Tests
 
 ```sh
