@@ -4,7 +4,7 @@
   "note": "Not affiliated with the Tor Project. Listing exits is not a statement about Tor; block or allow at your own discretion."
  },
  "checks": {
-  "added_since_last_run": 1346,
+  "added_since_last_run": 0,
   "addresses_without_country": 0,
   "bulk_list_ips": 1398,
   "dropped_no_policy_v4": 0,
@@ -124,8 +124,8 @@
    ]
   ]
  },
- "duration_s": 1.8,
- "generated": 1791123618,
+ "duration_s": 1.2,
+ "generated": 1791124716,
  "sources": {
   "bulk": {
    "url": "https://check.torproject.org/torbulkexitlist"
