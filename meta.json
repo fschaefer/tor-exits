@@ -4,23 +4,23 @@
   "note": "Not affiliated with the Tor Project. Listing exits is not a statement about Tor; block or allow at your own discretion."
  },
  "checks": {
-  "added_since_last_run": 34,
+  "added_since_last_run": 13,
   "addresses_without_country": 0,
-  "bulk_list_ips": 1213,
+  "bulk_list_ips": 1210,
   "dropped_no_policy_v4": 0,
-  "dropped_no_policy_v6": 66,
-  "dropped_not_running": 275,
+  "dropped_no_policy_v6": 67,
+  "dropped_not_running": 126,
   "dropped_reject_all_v4": 1,
   "dropped_reject_all_v6": 0,
-  "in_bulk_not_onionoo": 17,
-  "in_onionoo_not_bulk": 9,
-  "relays_exit_flag": 2878,
+  "in_bulk_not_onionoo": 18,
+  "in_onionoo_not_bulk": 11,
+  "relays_exit_flag": 2858,
   "relays_reject_all_v4": 1,
   "relays_reject_all_v6": 0,
-  "relays_running": 2644,
+  "relays_running": 2713,
   "relays_without_v4_policy_summary": 0,
-  "relays_without_v6_policy_summary": 496,
-  "removed_since_last_run": 7
+  "relays_without_v6_policy_summary": 355,
+  "removed_since_last_run": 15
  },
  "counts": {
   "by_country": {
@@ -37,12 +37,12 @@
    "cr": 2,
    "cy": 2,
    "cz": 13,
-   "de": 386,
+   "de": 385,
    "dk": 29,
    "ee": 2,
    "es": 3,
    "fi": 17,
-   "fr": 33,
+   "fr": 35,
    "gb": 11,
    "gr": 1,
    "hk": 13,
@@ -60,48 +60,49 @@
    "md": 9,
    "mx": 2,
    "my": 4,
-   "nl": 294,
+   "nl": 296,
    "no": 26,
    "nz": 2,
    "pe": 2,
    "ph": 2,
    "pl": 7,
    "pt": 2,
-   "ro": 35,
+   "ro": 33,
    "rs": 5,
    "sc": 2,
-   "se": 96,
-   "sg": 15,
+   "se": 95,
+   "sg": 11,
    "tr": 10,
-   "tw": 3,
-   "ua": 8,
-   "us": 687,
+   "tw": 5,
+   "ua": 6,
+   "us": 809,
    "vn": 3,
-   "za": 11
+   "vu": 1,
+   "za": 9
   },
-  "countries": 54,
-  "csv_rows": 1942,
-  "ipv4": 1205,
-  "ipv6": 737,
+  "countries": 55,
+  "csv_rows": 2059,
+  "ipv4": 1203,
+  "ipv6": 856,
   "top_countries": [
    [
     "us",
-    687
+    809
    ],
    [
     "de",
-    386
+    385
    ],
    [
     "nl",
-    294
+    296
    ],
    [
     "se",
-    96
+    95
    ],
    [
-    "ro",
+    "fr",
     35
    ],
    [
@@ -109,7 +110,7 @@
     34
    ],
    [
-    "fr",
+    "ro",
     33
    ],
    [
@@ -126,14 +127,14 @@
    ]
   ]
  },
- "duration_s": 1.1,
- "generated": 1791967690,
+ "duration_s": 2.0,
+ "generated": 1792052590,
  "sources": {
   "bulk": {
    "url": "https://check.torproject.org/torbulkexitlist"
   },
   "onionoo": {
-   "relays_published": "2026-10-14 07:00:00",
+   "relays_published": "2026-10-15 07:00:00",
    "url": "https://onionoo.torproject.org/details?type=relay&flag=Exit"
   }
  },
