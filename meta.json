@@ -4,23 +4,23 @@
   "note": "Not affiliated with the Tor Project. Listing exits is not a statement about Tor; block or allow at your own discretion."
  },
  "checks": {
-  "added_since_last_run": 31,
+  "added_since_last_run": 28,
   "addresses_without_country": 0,
-  "bulk_list_ips": 1222,
+  "bulk_list_ips": 1229,
   "dropped_no_policy_v4": 0,
-  "dropped_no_policy_v6": 63,
-  "dropped_not_running": 175,
+  "dropped_no_policy_v6": 62,
+  "dropped_not_running": 206,
   "dropped_reject_all_v4": 0,
   "dropped_reject_all_v6": 0,
-  "in_bulk_not_onionoo": 34,
-  "in_onionoo_not_bulk": 12,
-  "relays_exit_flag": 2895,
+  "in_bulk_not_onionoo": 47,
+  "in_onionoo_not_bulk": 9,
+  "relays_exit_flag": 2885,
   "relays_reject_all_v4": 0,
   "relays_reject_all_v6": 0,
-  "relays_running": 2709,
+  "relays_running": 2698,
   "relays_without_v4_policy_summary": 0,
-  "relays_without_v6_policy_summary": 350,
-  "removed_since_last_run": 23
+  "relays_without_v6_policy_summary": 336,
+  "removed_since_last_run": 37
  },
  "counts": {
   "by_country": {
@@ -29,111 +29,110 @@
    "au": 4,
    "az": 1,
    "be": 1,
-   "bg": 25,
+   "bg": 26,
    "ca": 6,
-   "ch": 24,
-   "cl": 6,
+   "ch": 22,
+   "cl": 4,
    "cr": 2,
    "cy": 2,
-   "cz": 13,
-   "de": 385,
-   "dk": 29,
+   "cz": 12,
+   "de": 391,
+   "dk": 27,
    "ee": 4,
    "es": 3,
-   "fi": 16,
-   "fr": 32,
+   "fi": 14,
+   "fr": 33,
    "gb": 12,
    "gr": 1,
-   "hk": 16,
+   "hk": 13,
    "hr": 4,
-   "hu": 19,
+   "hu": 16,
    "id": 6,
    "il": 1,
    "in": 1,
-   "is": 23,
-   "it": 23,
-   "jp": 3,
-   "kn": 1,
+   "is": 25,
+   "it": 19,
+   "jp": 4,
    "kr": 2,
-   "lu": 20,
-   "md": 10,
+   "lu": 18,
+   "md": 9,
    "mx": 2,
-   "my": 4,
-   "nl": 283,
-   "no": 24,
+   "my": 3,
+   "nl": 289,
+   "no": 27,
    "nz": 4,
    "pe": 2,
    "ph": 2,
    "pl": 9,
    "pt": 2,
-   "ro": 33,
+   "ro": 32,
    "rs": 8,
    "sc": 2,
-   "se": 95,
-   "sg": 11,
+   "se": 94,
+   "sg": 9,
    "tr": 10,
    "tw": 5,
-   "ua": 8,
-   "us": 805,
+   "ua": 10,
+   "us": 806,
    "vn": 3,
    "vu": 1,
    "za": 12
   },
-  "countries": 54,
-  "csv_rows": 2055,
-  "ipv4": 1200,
-  "ipv6": 855,
+  "countries": 53,
+  "csv_rows": 2050,
+  "ipv4": 1191,
+  "ipv6": 859,
   "top_countries": [
    [
     "us",
-    805
+    806
    ],
    [
     "de",
-    385
+    391
    ],
    [
     "nl",
-    283
+    289
    ],
    [
     "se",
-    95
+    94
    ],
    [
     "at",
     34
    ],
    [
-    "ro",
+    "fr",
     33
    ],
    [
-    "fr",
+    "ro",
     32
    ],
    [
     "dk",
-    29
+    27
+   ],
+   [
+    "no",
+    27
    ],
    [
     "bg",
-    25
-   ],
-   [
-    "ch",
-    24
+    26
    ]
   ]
  },
- "duration_s": 1.7,
- "generated": 1792571961,
+ "duration_s": 1.0,
+ "generated": 1792658511,
  "sources": {
   "bulk": {
    "url": "https://check.torproject.org/torbulkexitlist"
   },
   "onionoo": {
-   "relays_published": "2026-10-21 07:00:00",
+   "relays_published": "2026-10-22 07:00:00",
    "url": "https://onionoo.torproject.org/details?type=relay&flag=Exit"
   }
  },
